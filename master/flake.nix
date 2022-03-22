@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-polyBool-master.flake = false;
+  inputs.src-polyBool-master.ref   = "refs/heads/master";
   inputs.src-polyBool-master.owner = "jangko";
-  inputs.src-polyBool-master.ref   = "master";
   inputs.src-polyBool-master.repo  = "polyBool";
   inputs.src-polyBool-master.type  = "github";
   
