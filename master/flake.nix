@@ -11,7 +11,6 @@
   inputs.src-polyBool-master.ref   = "refs/heads/master";
   inputs.src-polyBool-master.owner = "jangko";
   inputs.src-polyBool-master.repo  = "polyBool";
-  inputs.src-polyBool-master.dir   = "";
   inputs.src-polyBool-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
